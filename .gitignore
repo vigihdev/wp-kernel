@@ -8,7 +8,7 @@ composer.lock
 /.phpunit.cache/
 Thumbs.db
 /coverage/
-server.php
+dev.php
 GEMINI.md
 /scripts/
 .env

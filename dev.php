@@ -21,7 +21,7 @@ foreach ($testFilesWp as $file) {
 }
 
 WpKernel::boot(basePath: __DIR__, configDir: 'config', enableAutoInjection: true);
-
+//satis build --repository-url=https://github.com/vigihdev/wp-kernel.git && ssh -t okkarent.co.id "satis build --repository-url=https://github.com/vigihdev/wp-kernel.git && exit;bash --login"
 var_dump(
     ServiceLocator::getParameter('ABSPATH'),
     getenv('WP_ADMIN'),
