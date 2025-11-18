@@ -11,6 +11,7 @@ use Vigihdev\WpKernel\Service\DotEnvWpService;
 final class WpKernel
 {
 
+
     public static function boot(
         string $basePath,
         string $configDir = 'config',
