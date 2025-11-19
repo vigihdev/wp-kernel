@@ -27,6 +27,7 @@ final class DotEnvWpService
             'STYLESHEETPATH' => STYLESHEETPATH,
             'SITE_URL' =>  get_site_url(),
             'STYLESHEET_URI' =>  get_stylesheet_uri(),
+            'STYLESHEET_PATH_URI' => get_stylesheet_directory_uri(),
         ]);
     }
 

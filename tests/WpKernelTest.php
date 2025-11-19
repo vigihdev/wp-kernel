@@ -7,6 +7,7 @@ use Vigihdev\WpKernel\WpKernel;
 
 class WpKernelTest extends TestCase
 {
+
     #[Test]
     public function it_boots_without_errors()
     {
